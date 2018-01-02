@@ -25,6 +25,15 @@ http://www.psyon.org/projects/pcre-win32/
 ==================
 
 "c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars32.bat"
+set INCLUDE
+
+        INCLUDE=c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\include;c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\T
+        ools\MSVC\14.12.25827\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x8
+        6)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;c
+        :\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\include;c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC
+        \14.12.25827\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Window
+        s Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;
+
 cd src\main\resources\vanitygen-plus
 
 nmake /fMakefile.Win32 clean vanitygen.exe
