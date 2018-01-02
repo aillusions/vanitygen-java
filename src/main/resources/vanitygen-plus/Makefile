@@ -14,7 +14,7 @@ else
 endif
 
 
-most: vanitygen
+most: vanitygen oclvanitygen
 
 all: $(PROGS)
 
