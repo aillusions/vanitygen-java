@@ -4,6 +4,12 @@ make clean all
 
 
 
+"c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars32.bat"
+cd src\main\resources\vanitygen-plus
+
+nmake /fMakefile.Win32 vanitygen.exe
+
+
 -----
 Vanitygen PLUS!  
 -----

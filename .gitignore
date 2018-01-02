@@ -33,3 +33,4 @@ vanitygen
 oclvanitygen
 .cproject
 .project
+*.pdb
