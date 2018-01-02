@@ -25,3 +25,11 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+
+*.oclbin
+*.o
+vanitygen
+oclvanitygen
+.cproject
+.project
