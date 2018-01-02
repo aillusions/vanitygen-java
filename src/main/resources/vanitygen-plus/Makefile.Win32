@@ -30,4 +30,4 @@ oclvanitygen.obj: oclvanitygen.c
 	@$(CC) /nologo $(CFLAGS_BASE) /c /Tpoclvanitygen.c /Fo$@
 
 clean:
-	del vanitygen.exe oclvanitygen.exe $(OBJS)
+	del vanitygen.exe oclvanitygen.exe $(OBJS) *.oclbin *.pdb Debug
