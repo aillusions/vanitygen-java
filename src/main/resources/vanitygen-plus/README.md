@@ -31,7 +31,8 @@ nmake /fMakefile.Win32 clean vanitygen.exe
 vanitygen.exe 1aaa
 
 nmake /fMakefile.Win32 clean oclvanitygen.exe
-
+oclvanitygen.exe -D 0:0 -D 1:0 -D 2:0 1aaaa
+oclvanitygen.exe -D 0:0 1aaaaaaa
 
 -----
 Vanitygen PLUS!  
