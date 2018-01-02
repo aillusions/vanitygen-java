@@ -3,11 +3,33 @@ make clean all
 ./oclvanitygen -o res.txt -D 0:0 -D 0:1 -D 0:2 1a1e
 
 
+==================
+
+http://slproweb.com/products/Win32OpenSSL.html
+	http://slproweb.com/download/Win32OpenSSL-1_0_2n.exe 20MB Installe Installs Win32 OpenSSL v1.0.2n 
+	
+	
+http://sourceware.org/pthreads-win32/
+	ftp://sourceware.org/pub/pthreads-win32
+		ftp://sourceware.org/pub/pthreads-win32/pthreads-w32-2-8-0-release.exe
+		
+http://www.psyon.org/projects/pcre-win32/
+	https://www.psyon.org/projects/pcre-win32/pcre-7.9-static.zip	
+	
+	
+	c:\env\OpenSSL-Win32\
+	c:\env\pthreads-w32-2-8-0-release\
+	c:\env\pcre-7.9\
+	
+	
+==================
 
 "c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars32.bat"
 cd src\main\resources\vanitygen-plus
 
-nmake /fMakefile.Win32 vanitygen.exe
+nmake /fMakefile.Win32 clean vanitygen.exe
+./vanitygen.exe 1aaa
+nmake /fMakefile.Win32 clean oclvanitygen.exe
 
 
 -----

@@ -34,3 +34,5 @@ oclvanitygen
 .cproject
 .project
 *.pdb
+*.obj
+*.exe
