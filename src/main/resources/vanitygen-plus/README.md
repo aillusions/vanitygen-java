@@ -20,7 +20,7 @@ http://www.psyon.org/projects/pcre-win32/
 	c:\env\OpenSSL-Win32\
 	c:\env\pthreads-w32-2-8-0-release\
 	c:\env\pcre-7.9\
-	
+	Install pthreadVC2.dll or copy to built directory (where vanitygen.exe is built)
 	
 ==================
 
@@ -28,7 +28,8 @@ http://www.psyon.org/projects/pcre-win32/
 cd src\main\resources\vanitygen-plus
 
 nmake /fMakefile.Win32 clean vanitygen.exe
-./vanitygen.exe 1aaa
+vanitygen.exe 1aaa
+
 nmake /fMakefile.Win32 clean oclvanitygen.exe
 
 
